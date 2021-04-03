@@ -23,7 +23,7 @@ int main()
 <h3>코드해석</h3>
 제일 윗줄에 <strong>#include <iostream></strong>은 c++에서 <strong>전처리 지시자</strong> 라고 말합니다.
 바로 밑에줄인 <strong>using namespace std;</strong>는 나중에 더욱 심화해서 배울테지만 , 이게 없다면
-밑에 <strong>cout<strong>앞에 std:: 를 붙어줘야합니다. 밑에 코드를 예로 들겟습니다.
+밑에 <strong>cout</strong>앞에 std:: 를 붙어줘야합니다. 밑에 코드를 예로 들겟습니다.
 
   <pre>
   <code>
