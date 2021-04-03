@@ -112,4 +112,41 @@ int a;
 이런식으로 쓰면 틀린겁니다. 변수는 위에서 우선 선언을 하고 시작해야합니다.
 
 <h1>const 2021.04.03</h1>
+ const는 코드로 하나하나 설명하기보다는 예를 하나들겟습니다.
+ :우선 상황은 우리는 프로그램을 하나 만들것입니다 어떤 프로그램이냐면 원의 넓이를 구하는 프로그램입니다.
+ <br>
+ 이제 한번 만들어보겟습니다 .
+ 
+ <pre>
+ <code>
+ #include <iostream>
+ using namespace std;
+ 
+ int main() {
+ 
+  const float PIE = 3.1415926535;
+  
+  int r = 3;
+  float s = r * r * 3.14;
+  
+  cout<<s<<endl;
+  
+  int a = 3.1415926535;
+  cout<<a<<endl;
+  
+  ehar ch = 'M';
+  cout<<(int)ch<<" "<< int(ch)<<" "<<endl;
+  cout<<static_cast<int>(ch)<<endl;
+ 
+ </code>
+ </pre>
+ 
+ <h3>코드해석</h3>
+우선 const 라는 제한자를 사용하게 되면 중간에 값을 바꾸면 에러가 나는데요.
+-const라는 제한자를 사용하려면 <strong>const (변수명) <상수명> = (값)
+ 이렇게 말하면 너무 어려우니 한가지의 코드로 예를 들겟습니다
+ 
+ <pre>
+ <code>
+ 
 
