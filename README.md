@@ -104,7 +104,7 @@ int main() {
 
 <pre>
 <code>
-#include <iostream>
+ #include <iostream>
 
 using namespace std;
 
@@ -135,7 +135,8 @@ int main() {
 
 <pre>
 <code>
-#include <iostream>
+ #include <iostream>
+
 using namespace std;
 
 int main() {
