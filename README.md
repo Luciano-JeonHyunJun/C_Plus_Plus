@@ -131,13 +131,10 @@ int main() {
 </pre>
 </code>
 
-
-
 <h1>C++ const</h1>
 
 <pre>
 <code>
-
 #include <iostream>
 using namespace std;
 
@@ -151,20 +148,13 @@ int main() {
 
     cout<<s<<endl;
 
-
-
     int a = 3.1415926535;
 
     cout<<a<<endl; 
 
-    
-
     char ch = 'M';
     cout<<(int)ch<<" "<< int(ch)<<" "<<endl; 
     cout<<static_cast<int>(ch) <<endl;
-
-
-
 
     return 0;
 }
