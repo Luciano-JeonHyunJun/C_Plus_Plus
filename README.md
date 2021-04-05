@@ -179,7 +179,7 @@ typeName(a)
 이런식으로 사용할수 있습니다. 하지만 c++에서는 조금 더 제한적인 데이터형 변환자가 존재하는데요. 그 방법은 바로 
 <strong>static_cast<typeName>(변수명)</strong>로 사용할수 있습니다.
 
-wadhiawiodioawdhoawhdioaiohdawpi9dj
+
 
 
 
