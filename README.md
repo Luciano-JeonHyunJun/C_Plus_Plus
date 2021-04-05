@@ -164,6 +164,7 @@ const라는 제한자를 사용하려면 <strong>const (변수의 자료형) <�
     cout<<static_cast<int>(ch) <<endl;
 </code>
 </pre>
+
 이 코드는 char ch 값은 string형식의 M으로 두었습니다. 근데 갑자기 cout에선 int로 변환을 시키구요.
 그렇다는건 제가 옆에 주석처리로 설명해둔 이유가 있는데요. 아스키코드에서는 M 이라는 글자를 77이라고 인식합니다.
 그러면 제가 왜 <strong>int(ch)또는(int)ch</strong> 라고 쓴 이우가 무엇일까요? 그리고 저 방법은 무엇일까요? 
