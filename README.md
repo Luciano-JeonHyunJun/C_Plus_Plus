@@ -32,7 +32,7 @@ int main() {
   
   int b = 3;
   
-  cout<<"a = "<<a<<",b = "<<b<<endl;
+  cout<<"a = "<<a<<", b = "<<b<<endl;
 
  return 0;
 }
