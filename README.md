@@ -110,7 +110,7 @@ using namespace std;
 
 int main() {
 
-    int a = 77; //분명 77이라고 값을 대입시키고
+    int a = 77; 
     char b = a; 
     cout<< b << endl;  
 
