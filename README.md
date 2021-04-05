@@ -100,6 +100,76 @@ int main() {
 </pre>
 </code>
 
+<h1>C++ boolean</h1>
+
+<pre>
+<code>
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int a = 77; //분명 77이라고 값을 대입시키고
+    char b = a; 
+    cout<< b << endl;  
+
+    
+    char c = 'd'; 
+    cout<<c<<endl;
+
+    bool e = 0; 
+    bool f = 1;
+    bool g = 10;      
+    
+    cout<<e<<" "<<f<<" "<<g<<" "<<endl;
+
+    return 0;
+
+}
+
+</pre>
+</code>
+
+<h1>C++ const</h1>
+
+<pre>
+<code>
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    const float PIE = 3.1415926535;
+
+
+    int r = 3;
+    float s = r * r * 3.14;
+
+    cout<<s<<endl;
+
+
+
+    int a = 3.1415926535;
+
+    cout<<a<<endl; 
+
+    
+
+    char ch = 'M';
+    cout<<(int)ch<<" "<< int(ch)<<" "<<endl; 
+    cout<<static_cast<int>(ch) <<endl;
+
+
+
+
+    return 0;
+}
+
+</pre>
+</code>
+
 
 
 
