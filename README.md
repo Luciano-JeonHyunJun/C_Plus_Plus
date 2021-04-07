@@ -3,7 +3,7 @@ C++ 기초를 코드로 정리하는 커밋입니다.   / It's a commit that cle
 
 ## HelloWorld 
 
-'''Cpp
+~~~Cpp
 
 	#include <iostream>
 	using namespace std;
@@ -14,7 +14,7 @@ C++ 기초를 코드로 정리하는 커밋입니다.   / It's a commit that cle
 	return 0;
 	}
 
-'''
+~~~
 
 
 
