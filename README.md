@@ -40,7 +40,8 @@ C++에서는 HelloWorld를 출력하기 위해선 파이썬에 비해서 많은 
 ### Main()
 int **main**에서 main은 C++에서는 원칙적으로 main함수 밑에서부터 처리가 되는데요. <br />
 C++코드에서는 프로그램의 본체가 되는 부분이 있습니다. 바로 밑에 코드인데요.<br />
-~~~ cpp
+
+~~~Cpp
 
 int main() {
 
@@ -48,6 +49,7 @@ return 0;
 
 }
 ~~~
+
 위에 있는 코드가 C++에서는 프로그램의 본체가 되는 코드입니다. <br />
 C++에서는 코드실행이 **return 0;** 까지 온다면 실행이 끝이 납니다. <br />
 중괄호{} 로 둘러싸인 부분은 **블록(block)** 라고 부릅니다.
@@ -70,6 +72,31 @@ HelloWorld코드에서 가장 위에 부분을 보시면 이런 코드가 존재
 std.cout<<"HelloWorld"<<endl;
 ~~~
 하지만 두번째 줄에 있는 **using namespace std;** 를 사용한다면 그냥 쓰는거처럼 **cout**라고 적어도 무방합니다.
+
+## Variable 
+
+~~~ cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int a;
+a = 3;
+
+cout<<"a = "<<a<<endl;
+return 0;
+}
+~~~
+
+## 코드해석
+처음에 블록부분을 보시면 **int라는 자료형에 a라는 variable이 있다고 선언했습니다.** <br />
+그 바로 밑에줄에는 a라는 variable은 **3이라는 값**을 대입시켰구요. <br />
+그리고 cout출력 줄을 보시면 알겟지만 , 우선 **a =** 이라고 출력이 되고 , 그 이후 a의 대입값인 **3** 이 나오게 됩니다.<br /> 
+
+
+
 
 
 
