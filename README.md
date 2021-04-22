@@ -381,7 +381,29 @@ if문은 분명히 **조건을 수행하려고 했으나 , {}으로 감싸지 �
 그래서 대부분은 코드에 들여쓰기를 사용해서 **가독성** 을 높힙니다. <br />
 
 ### if ~ else문
+우선 if문은 조건이 True인 경우에만 실행이 됬는데요. 이번에는 조건이 **False**인 경우에도 특정 코드를 실행시키는 <br />
+**if - else**문을 알아보겟습니다.<br />
+우선 if~else문의 구문인데요. 밑에 코드를 봐주세요 :)
+~~~
+if(조건)
+	Sentence 1;
+else
+	Sentence 2;
+~~~ 
 
+이 구문은 조건이 참일시 Sentence 1을 출력시키지만 만일 **False**라면 Sentence 2를 출력시킵니다.<br />
+이번에는 한번 if~else문으로 여러개의 조건문장을 처리해보겟습니다.<br />
+~~~
+if(조건){
+	Sentence 1;
+	Sentence 2;
+}
+else
+	Sentence 3
+	Sentence 4
+	
+}
+~~~
 
 
 
